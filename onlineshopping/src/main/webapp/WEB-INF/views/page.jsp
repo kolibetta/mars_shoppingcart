@@ -51,9 +51,9 @@
 				<%@ include file="about.jsp"%>
 			</c:if>
 
-			<c:if test="${userclick_services==true}">
+			<c:if test="${userclickAllProducts==true or userclickCategoryProducts==true}">
 				<!-- Page Content -->
-				<%@ include file="services.jsp"%>
+				<%@ include file="listProducts.jsp"%>
 			</c:if>
 
 
